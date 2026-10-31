@@ -1,0 +1,28 @@
+# Secrets & Environment Variables
+.env
+*.env
+!.env.example
+
+# SQLite WAL Databases & Journals (Contains live client leads)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Runtime Telemetry Logs
+*.log
+*.log.*
+
+# Telethon Session Files
+*.session
+*.session-journal
+
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
